@@ -4,9 +4,16 @@ __pycache__/
 .env
 .ipynb_checkpoints/
 
+# Ignore all raw/unprocessed data
 data/raw/*
-data/processed/*
 data/external/*
+
+# Ignore everything in processed except the curated ones
+data/processed/*
+!data/processed/master_country_year_clean.csv
+!data/processed/age10_country_year_age.csv
+!data/processed/totals_country_year.csv
+!data/processed/unemployment_clean.csv
 
 .DS_Store
 .vscode/
