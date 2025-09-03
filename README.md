@@ -103,7 +103,8 @@ Dashboards are in /dashboards/ and published on Tableau Public:
 ⸻
 
 🔮 Next Steps (Future Improvements)
-	•	⚡ Automate updates → set up Tableau Public extracts to refresh data regularly.
+	
+    •	⚡ Automate updates → set up Tableau Public extracts to refresh data regularly.
  
 	•	🤖 Predictive modeling → use Python ML to forecast future LFPR & unemployment trends.
  
