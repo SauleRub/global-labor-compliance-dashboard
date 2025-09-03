@@ -39,6 +39,7 @@ The results are presented through a series of **interactive Tableau dashboards**
 ---
 
 ## 📊 Dashboards  
+[View Tableau Dashboards](./dashboard/README.md)
 
 ### 1️⃣ World GDP per Capita (2023 Snapshot)  
 🔗 [View Dashboard](https://public.tableau.com/views/WorldGDPperCapita2023Snapshot/WorldGDPperCapita2023Snapshot?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
