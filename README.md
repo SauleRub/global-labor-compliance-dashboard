@@ -102,7 +102,9 @@ README.md             → Project overview (this file)
 4.	Open Tableau Dashboards
 Dashboards are in /dashboards/ and published on Tableau Public:
     •	🌍 World GDP per Capita (2023 Snapshot)
+  	
   	•	👥 Global Workforce Overview (2023)
+  	
   	•	📈 Global Workforce Trends (2000–2023)
 
 ⸻
