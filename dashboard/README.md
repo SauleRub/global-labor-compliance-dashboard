@@ -38,6 +38,6 @@ Each dashboard is available as:
 [View on Tableau Public](https://public.tableau.com/views/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023?:language=en-GB&publish=yes)
 
 **Preview:**  
-![Global Workforce Trends 2000–2023](Global%20Workforce%20Trends_%20GDP,%20Labor%20Participation%20&%20Unemployment%20(2000–2023).png)
+![Global Workforce Trends 2000–2023]![Global Workforce Trends (preview)](./Global%20Workforce%20Trends%202000%E2%80%932023.png)
 
 **File:** `Global Workforce Trends_ GDP, Labor Participation & Unemployment (2000–2023).twbx`
