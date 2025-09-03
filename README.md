@@ -86,12 +86,12 @@ README.md             → Project overview (this file)
 1. Clone this repo:  
    ```bash
    git clone https://github.com/SauleRub/global-labor-compliance-dashboard.git
-	2.	Explore SQL scripts
+2.	Explore SQL scripts
 	•	Inside /sql/ you’ll find staging and final schema scripts (ilo.master_country_year, ilo_views_tableau.sql).
 	•	These define how raw data was cleaned, merged, and prepared for Tableau.
-	3.	Run Python preprocessing (optional)
+3.	Run Python preprocessing (optional)
 	•	Inside /notebooks/ you’ll find Jupyter notebooks for cleaning, tagging, and transforming datasets before SQL staging.
-	4.	Open Tableau Dashboards
+4.	Open Tableau Dashboards
 Dashboards are in /dashboards/ and published on Tableau Public:
 	•	🌍 World GDP per Capita (2023 Snapshot)
 	•	👥 Global Workforce Overview (2023)
