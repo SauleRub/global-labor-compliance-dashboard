@@ -69,11 +69,11 @@ The results are presented through a series of **interactive Tableau dashboards**
 
 📁 data/              → cleaned datasets (CSV)
 
-📁 sql/               → SQL scripts (staging, final, Tableau views)
+📁 src/sql/           → SQL scripts (staging, final, Tableau views)
 
 📁 notebooks/         → Python preprocessing scripts (cleaning, tagging, transformations)
 
-📁 dashboards/        → Tableau links (README.md) + packaged workbooks (optional)
+📁 dashboards/        → Tableau dashboards (`.twbx` packaged files + `.png` previews + README.md with Tableau Public links) 
 
 README.md             → Project overview (this file)
 
@@ -109,7 +109,7 @@ Dashboards are in /dashboards/ and published on Tableau Public:
 
 🔮 Next Steps (Future Improvements)
 	
-    •	⚡ Automate updates → set up Tableau Public extracts to refresh data regularly.
+    •   ⚡ Automate updates → set up Tableau Public extracts to refresh data regularly.
  
 	•	🤖 Predictive modeling → use Python ML to forecast future LFPR & unemployment trends.
  
