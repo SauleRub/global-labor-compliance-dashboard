@@ -67,9 +67,13 @@ The results are presented through a series of **interactive Tableau dashboards**
 ## 📂 Repository Structure
 
 📁 data/              → cleaned datasets (CSV)
+
 📁 sql/               → SQL scripts (staging, final, Tableau views)
+
 📁 notebooks/         → Python preprocessing scripts (cleaning, tagging, transformations)
+
 📁 dashboards/        → Tableau links (README.md) + packaged workbooks (optional)
+
 README.md             → Project overview (this file)
 
 ---
