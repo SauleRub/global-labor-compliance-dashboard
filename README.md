@@ -1,83 +1,78 @@
-🌍 Global Workforce & Economic Trends (2000–2023)
+# 🌍 Global Workforce & Economic Trends (2000–2023)
 
-📌 Project Overview
+## 📌 Project Overview  
+This project explores the intersection of economic development and labor markets across more than 180 countries (2000–2023), using data from the **International Labour Organization (ILO)** and **World Bank**.  
 
-This project explores the intersection of economic development and labor markets across more than 180 countries from 2000–2023, using data from the International Labour Organization (ILO) and World Bank.
+The analysis focuses on:  
+- **GDP per capita disparities** across countries and regions  
+- **Labor Force Participation Rate (LFPR)**  
+- **Employment structure** by sector (Agriculture, Industry, Services)  
+- **Unemployment rates** and global/regional benchmarks  
+- **Trends over time** and cross-regional comparisons  
 
-The analysis focuses on:
-	•	GDP per capita disparities across countries and regions
-	•	Labor Force Participation Rate (LFPR)
-	•	Employment structure by sector (Agriculture, Industry, Services)
-	•	Unemployment rates and global/regional benchmarks
-	•	Trends over time and cross-regional comparisons
+The results are presented through a series of **interactive Tableau dashboards**, designed to support companies, policymakers, and researchers in understanding labor force dynamics and global inequalities.  
 
-The results are presented in a series of interactive Tableau dashboards designed to support companies, policymakers, and researchers in understanding labor force dynamics and economic inequalities.
+---
 
-⸻
+## 🛠 Tech Stack
 
-🔧 Tech Stack
+### 📊 Data Collection & Processing
+- **Python** (Pandas, NumPy) → cleaning, reshaping, filtering datasets  
+- Regex & String handling → standardizing country names  
+- Custom Python scripts → tagging countries vs regions, creating calculated fields (LFPR corrected, unemployment %)  
 
-📊 Data Collection & Processing
-	•	Python (Pandas, NumPy) → cleaning, reshaping, filtering datasets
-	•	Regex & String handling → standardizing country names (snake_case, removing regions from country lists)
-	•	Custom Python scripts → tagging countries vs regions, creating calculated fields (LFPR corrected, unemployment %)
+### 🗄 Database & Queries
+- **PostgreSQL + pgAdmin4**  
+- SQL (DDL & DML) → staging + final schema design  
+- Built Tableau-ready views (staging + final tables → `ilo.master_country_year`, `ilo_views_tableau.sql`)  
 
-🗄️ Database & Queries
-	•	PostgreSQL + pgAdmin4 → staging + final schema design
-	•	SQL (DDL & DML) →
-	•	staging/final tables (staging.master_country_year, ilo.master_country_year)
-	•	transformations (snake_case, dropping duplicates)
-	•	views for Tableau (ilo_views_tableau.sql)
+### 📈 Visualization
+- **Tableau** → interactive dashboards  
+- Choropleth maps, bar charts, stacked bars, scatterplots, trendlines  
+- Interactive features: filters, tooltips, time sliders  
 
-📉 Visualization
-	•	Tableau → building interactive dashboards
-	•	maps, bar charts, stacked bars, scatterplots, trendlines
-	•	reference lines (world median, averages)
-	•	tooltips customization
+### 🚀 Project Management
+- **Git & GitHub** → version control, project organization  
+- CSV / Excel → raw & cleaned datasets  
+- Documentation (this README + dashboards folder)  
 
-📂 Project Management
-	•	Git & GitHub → version control, organizing SQL/Python/Tableau work
-	•	CSV / Excel → raw + cleaned datasets, mapping files
+---
 
-⸻
+## 📊 Dashboards  
 
-📊 Dashboards
+### 1️⃣ World GDP per Capita (2023 Snapshot)  
+🔗 [View Dashboard](https://public.tableau.com/views/WorldGDPperCapita2023Snapshot/WorldGDPperCapita2023Snapshot?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+- Choropleth world map: GDP per capita by country  
+- Top 10 richest vs poorest countries  
+- Median GDP per capita reference line  
 
-1️⃣ World GDP per Capita (2023 Snapshot)
+---
 
-👉 View Dashboard
-	•	Choropleth world map: GDP per capita by country
-	•	Top 10 richest vs poorest countries
-	•	Median GDP per capita reference line
+### 2️⃣ Global Workforce Overview (2023)  
+🔗 [View Dashboard](https://public.tableau.com/views/GlobalWorkforceOverview2023/GlobalWorkforceOverview2023?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+- LFPR by region (labor force participation)  
+- Employment by sector (Agriculture, Industry, Services)  
+- Unemployment by region with world average benchmark  
 
-⸻
+---
 
-2️⃣ Global Workforce Overview (2023)
+### 3️⃣ Global Workforce Trends (2000–2023)  
+🔗 [View Dashboard](https://public.tableau.com/views/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+- Trends for GDP per capita, LFPR, Unemployment (2000–2023)  
+- Interactive time slider for exploring yearly data  
+- Bubble scatterplot → GDP vs LFPR with unemployment as bubble size  
 
-👉 View Dashboard
-	•	LFPR by region (labor force participation rates)
-	•	Employment by sector (Agriculture, Industry, Services)
-	•	Unemployment by region with world average benchmark
+---
 
-⸻
+## 📂 Repository Structure
 
-3️⃣ Global Workforce Trends (2000–2023)
-
-👉 View Dashboard
-	•	Trends for GDP per capita, LFPR, Unemployment over 2000–2023
-	•	Interactive time slider (Pages) for exploring yearly data
-	•	Bubble scatterplot → relationship between GDP per capita & labor participation
-	•	Regional and country-level comparisons
-
-⸻
-
-📂 Repository Structure
-
-📁 data/              → raw & cleaned datasets (CSV)
+📁 data/              → cleaned datasets (CSV)
 📁 sql/               → SQL scripts (staging, final, Tableau views)
 📁 notebooks/         → Python preprocessing scripts (cleaning, tagging, transformations)
 📁 dashboards/        → Tableau links (README.md) + packaged workbooks (optional)
 README.md             → Project overview (this file)
+
+---
 
 ✅ Key Insights
 
@@ -87,18 +82,25 @@ README.md             → Project overview (this file)
 - 📉 **Unemployment rates** cluster below 10% in most regions, though fragile/conflict economies and specific years (e.g., financial crisis, COVID-19) show clear spikes.  
 - 📊 **Trends (2000–2023)** reveal steady GDP growth overall, but uneven labor market improvements across regions.  
 
- 🚀 How to Use
-	1.	Clone this repo:
- git clone https://github.com/SauleRub/global-labor-compliance-dashboard.git
-  2.	Explore SQL scripts inside /sql to see how staging & final tables were built.
-	3.	Open Tableau dashboards (links above) for interactive exploration.
-
- ✨ This project demonstrates end-to-end workflow:
-raw data → Python cleaning → SQL modeling → Tableau dashboards → GitHub documentation.
+## 📌 How to Use
+1. Clone this repo:  
+   ```bash
+   git clone https://github.com/SauleRub/global-labor-compliance-dashboard.git
+	2.	Explore SQL scripts
+	•	Inside /sql/ you’ll find staging and final schema scripts (ilo.master_country_year, ilo_views_tableau.sql).
+	•	These define how raw data was cleaned, merged, and prepared for Tableau.
+	3.	Run Python preprocessing (optional)
+	•	Inside /notebooks/ you’ll find Jupyter notebooks for cleaning, tagging, and transforming datasets before SQL staging.
+	4.	Open Tableau Dashboards
+Dashboards are in /dashboards/ and published on Tableau Public:
+	•	🌍 World GDP per Capita (2023 Snapshot)
+	•	👥 Global Workforce Overview (2023)
+	•	📈 Global Workforce Trends (2000–2023)
 
 ⸻
 
-📌 Next Steps (Future Improvements):
-	•	Add population data for richer bubble scaling
-	•	Automate updates with Tableau Public extracts
-	•	Explore predictive models (Python ML) for LFPR & unemployment
+🔮 Next Steps (Future Improvements)
+	•	⚡ Automate updates → set up Tableau Public extracts to refresh data regularly.
+	•	🤖 Predictive modeling → use Python ML to forecast future LFPR & unemployment trends.
+	•	🗺 Regional deep dives → build additional dashboards focusing on specific continents.
+	•	📈 Comparative policy analysis → integrate governance or education indicators for broader insights.
