@@ -38,30 +38,15 @@ The results are presented through a series of **interactive Tableau dashboards**
 
 ---
 
-## 📊 Dashboards  
-[View Tableau Dashboards](./dashboard/README.md)
+## 📊 Global Workforce & Economic Trends (2000–2023)
 
-### 1️⃣ World GDP per Capita (2023 Snapshot)  
-🔗 [View Dashboard](https://public.tableau.com/views/WorldGDPperCapita2023Snapshot/WorldGDPperCapita2023Snapshot?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-- Choropleth world map: GDP per capita by country  
-- Top 10 richest vs poorest countries  
-- Median GDP per capita reference line  
+🔗 [View Dashboard](https://public.tableau.com/app/profile/saule.rubinshtein/viz/GlobalWorkforceEconomicTrends20002023/Dashboard6)
 
----
-
-### 2️⃣ Global Workforce Overview (2023)  
-🔗 [View Dashboard](https://public.tableau.com/views/GlobalWorkforceOverview2023/GlobalWorkforceOverview2023?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-- LFPR by region (labor force participation)  
-- Employment by sector (Agriculture, Industry, Services)  
-- Unemployment by region with world average benchmark  
-
----
-
-### 3️⃣ Global Workforce Trends (2000–2023)  
-🔗 [View Dashboard](https://public.tableau.com/views/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-- Trends for GDP per capita, LFPR, Unemployment (2000–2023)  
-- Interactive time slider for exploring yearly data  
-- Bubble scatterplot → GDP vs LFPR with unemployment as bubble size  
+This master dashboard combines:
+- World GDP per capita snapshot (map, top/bottom countries)
+- Labor force participation & employment structure by region
+- Unemployment rate trends (2000–2023)
+- Scatterplot: GDP vs LFPR with unemployment trends
 
 ---
 
