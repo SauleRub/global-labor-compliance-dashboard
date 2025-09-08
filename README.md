@@ -58,7 +58,7 @@ This master dashboard combines:
 
 📁 notebooks/         → Python preprocessing scripts (cleaning, tagging, transformations)
 
-📁 dashboards/        → Tableau dashboards (`.twbx` packaged files + `.png` previews + README.md with Tableau Public links) 
+📁 dashboards/        → Tableau dashboard (`.twbx` packaged files + `.png` previews + README.md with Tableau Public link) 
 
 README.md             → Project overview (this file)
 
