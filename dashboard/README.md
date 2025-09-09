@@ -11,6 +11,5 @@ This folder contains the **final master Tableau dashboard** for the project *Glo
 
 ### Notes
 - This is the **primary deliverable** combining GDP per capita, labor force participation, unemployment trends, and employment by sector.  
-- Older dashboards (e.g., GDP 2023 Snapshot, Workforce Overview, Workforce Trends) were merged into this final version.  
 - Additional draft worksheet images are stored separately in the [`Worksheets/`](../Worksheets) folder.  
 - Cleaned datasets used to power this dashboard are available in [`data/processed/`](../data/processed).  
