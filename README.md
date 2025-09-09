@@ -1,5 +1,7 @@
 # 🌍 Global Workforce & Economic Trends (2000–2023)
 
+[![Loom Video](https://img.shields.io/badge/🎥%20Watch%20Project%20Presentation-blue?logo=loom)](https://www.loom.com/share/babdd00540ad4760bf5bffb700191e61)
+
 ## 📌 Project Overview  
 This project explores the intersection of economic development and labor markets across more than 180 countries (2000–2023), using data from the **International Labour Organization (ILO)** and **World Bank**.  
 
