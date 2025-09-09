@@ -20,11 +20,11 @@ Click to open full size.
 - **LFPR by Region (2023)**  
   <img src="LFPR%20by%20Region%20(2).png" width="600" />
 
-- **Unemployment Rate by Region (%, 2023)**  
-  <img src="Unemployment%20Rate%20by%20Region%20(%%2C%202023)%20(2).png" width="600" />
+### 📉 Unemployment Rate by Region (%, 2023)
+<img src="Unemployment%20Rate%20by%20Region%20%28%25%2C%202023%29%20%282%29.png" width="650" />
 
-- **Global Unemployment Trend by Region (2000–2023)**  
-  <img src="Global%20Unemployment%20Trend%20by%20Region%20(2000–2023).png" width="600" />
+### 🌐 Global Unemployment Trend by Region (2000–2023)
+<img src="Global%20Unemployment%20Trend%20by%20Region%20%282000%E2%80%932023%29.png" width="650" />
 
 - **World GDP per Capita (2023)**  
   <img src="World%20GDP%20per%20Capita%20(2023).png" width="600" />
