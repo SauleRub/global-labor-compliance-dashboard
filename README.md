@@ -103,6 +103,9 @@ Dashboards are in /dashboards/ and published on Tableau Public:
 
 ⸻
 
+⚠️ **Data Availability Note**  
+Some years (2008–2015) are missing from the dataset due to gaps in the original ILO/World Bank sources. Tableau filters display only available data, so the timeline reflects these reporting limitations.  
+
 🔮 Next Steps (Future Improvements)
 	
     •   ⚡ Automate updates → set up Tableau Public extracts to refresh data regularly.
@@ -112,3 +115,5 @@ Dashboards are in /dashboards/ and published on Tableau Public:
 	•	🗺 Regional deep dives → build additional dashboards focusing on specific continents.
  
 	•	📈 Comparative policy analysis → integrate governance or education indicators for broader insights.
+
+    • 📊 Fill missing years → supplement dataset gaps (2008–2015) with alternative sources to improve timeline continuity.  
