@@ -24,10 +24,10 @@ These images show the intermediate visualizations that were later integrated int
 <img src="LFPR%20by%20Region%20(2).png" width="600" />
 
 ### 📉 Unemployment Rate by Region (%, 2023)
-<img src="Unemployment%20Rate%20by%20Region%20(%%2C%202023)%20(2).png" width="600" />
+<img src="Unemployment%20Rate%20by%20Region%20(%25,%202023)%20(2).png" width="650" />
 
-### 📊 Employment Share by Sector, by Region (2023)
-<img src="Employment%20Share%20by%20Sector%2C%20by%20Region%20(2023)%20(2).png" width="600" />
+### 🧭 Employment Share by Sector, by Region (2023)
+<img src="Employment%20Share%20by%20Sector%2C%20by%20Region%20(2023)%20(2).png" width="650" />
 
-### 📉 Global Unemployment Trend by Region (2000–2023)
-<img src="Global%20Unemployment%20Trend%20by%20Region%20(2000–2023).png" width="600" />
+### 🌐 Global Unemployment Trend by Region (2000–2023)
+<img src="Global%20Unemployment%20Trend%20by%20Region%20(2000%E2%80%932023).png" width="650" />
