@@ -1,4 +1,4 @@
-# 📊 Tableau Dashboards
+# 📊 Tableau Dashboard
 
 This folder contains the **final master Tableau dashboard** for the project *Global Workforce & Economic Trends (2000–2023)*.
 
