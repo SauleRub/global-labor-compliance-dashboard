@@ -38,15 +38,19 @@ The results are presented through a series of **interactive Tableau dashboards**
 
 ---
 
-## 📊 Global Workforce & Economic Trends (2000–2023)
+## 📊 Master Dashboard
+🔗 **[View on Tableau Public](https://public.tableau.com/app/profile/saule.rubinshtein/viz/GlobalWorkforceEconomicTrends20002023/Dashboard6)**  
 
-🔗 [View Dashboard](https://public.tableau.com/app/profile/saule.rubinshtein/viz/GlobalWorkforceEconomicTrends20002023/Dashboard6)
+This single dashboard combines:
+- 🌍 World GDP per capita snapshot (map + top/bottom countries)  
+- 👥 Labor force participation & employment structure by region  
+- 📉 Unemployment rate trends (2000–2023)  
+- 📈 Scatterplot: GDP vs LFPR with unemployment as bubble size  
 
-This master dashboard combines:
-- World GDP per capita snapshot (map, top/bottom countries)
-- Labor force participation & employment structure by region
-- Unemployment rate trends (2000–2023)
-- Scatterplot: GDP vs LFPR with unemployment trends
+📂 **Files in `/dashboard/`**
+- Packaged workbook (`.twbx`) for local use  
+- Static preview (`.png`)  
+- README with Tableau Public link  
 
 ---
 
@@ -58,9 +62,11 @@ This master dashboard combines:
 
 📁 notebooks/         → Python preprocessing scripts (cleaning, tagging, transformations)
 
-📁 dashboards/        → Tableau dashboard (`.twbx` packaged files + `.png` previews + README.md with Tableau Public link) 
+📁 dashboard/         → final **master dashboard** (TWBX + PNG + README)  
 
-README.md             → Project overview (this file)
+📁 Worksheets/        → snapshot PNGs of intermediate Tableau worksheets  
+
+📄 README.md          → Project overview (this file)
 
 ---
 
