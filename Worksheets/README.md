@@ -1,51 +1,24 @@
-# 🖼️ Worksheet Snapshots (PNG)
+# 🖼️ Worksheets Folder
 
-Static PNG exports of key worksheets used to build the master dashboard.  
-Filenames are URL-encoded so images render on GitHub reliably.
+This folder contains **individual Tableau worksheet snapshots (PNG)** that were used to build the final master dashboard:
 
----
-
-## 🔝 Top / Bottom GDP per Capita (2023)
-
-**Top 10 Countries by GDP per Capita (2023)**
-<img src="Top%2010%20Countries%20by%20GDP%20per%20Capita%20%282023%29.png" width="700" />
-
-**Bottom 10 Countries by GDP per Capita (2023)**
-<img src="Bottom%2010%20Countries%20by%20GDP%20per%20Capita%20%282023%29.png" width="700" />
+- GDP per capita (Top 10 & Bottom 10 countries, 2023)
+- GDP vs Labor Force Participation (2000–2023)
+- Labor Force Participation Rate (LFPR) by region
+- Employment share by sector (Agriculture, Industry, Services)
+- Unemployment rate by region (2023)
+- Global unemployment trends (2000–2023)
+- World GDP per capita map (2023)
 
 ---
 
-## 💬 GDP vs Labor Force Participation (2000–2023)
+## Why keep these?
 
-<img src="GDP%20vs%20Labor%20Force%20Participation%20%282000%E2%80%932023%29.png" width="700" />
-
----
-
-## 👷 Labor Force Participation Rate (LFPR)
-
-**LFPR by Region (2023)**
-<img src="LFPR%20by%20Region%20%282%29.png" width="700" />
+- ✅ **Transparency** → shows the step-by-step analysis behind the master dashboard  
+- ✅ **Reusability** → each worksheet can be reused in presentations or other reports  
+- ✅ **Documentation** → demonstrates how individual insights were combined
 
 ---
 
-## 🧭 Employment by Sector (2023)
-
-**Employment Share by Sector, by Region (2023)**
-<img src="Employment%20Share%20by%20Sector%2C%20by%20Region%20%282023%29%20%282%29.png" width="700" />
-
----
-
-## 📈 Unemployment
-
-**Unemployment Rate by Region (%, 2023)**
-<img src="Unemployment%20Rate%20by%20Region%20%28%25%2C%202023%29%20%282%29.png" width="700" />
-
-**Global Unemployment Trend by Region (2000–2023)**
-<img src="Global%20Unemployment%20Trend%20by%20Region%20%282000%E2%80%932023%29.png" width="700" />
-
----
-
-## 🗺️ World Map (2023)
-
-**World GDP per Capita (2023)**
-<img src="World%20GDP%20per%20Capita%20%282023%29.png" width="700" />
+📌 **Note:** These are **static exports only**.  
+For the interactive, consolidated view, see the **master dashboard** in the [`dashboard/`](../dashboard/) folder.
