@@ -1,44 +1,14 @@
 # 📊 Tableau Dashboards
 
-This folder contains the Tableau dashboards created for the **Global Workforce & Economic Trends (2000–2023)** project.  
-Each dashboard is available as:
-- **Interactive link** on Tableau Public  
-- **Packaged workbook (.twbx)** for local exploration  
-- **Static PNG preview** for quick reference  
+This folder contains the **final master Tableau dashboard** for the project *Global Workforce & Economic Trends (2000–2023)*.
 
----
+### Master Dashboard
+- **Interactive (Tableau Public):** [View here](https://public.tableau.com/app/profile/saule.rubinshtein/viz/GlobalWorkforceEconomicTrends20002023/Dashboard6?publish=yes)  
+- **Packaged workbook:** `Global Workforce & Economic Trends (2000_2023).twbx`  
+- **Static preview:** `Global Workforce & Economic Trends (2000_2023).png`  
 
-## 🌍 1. World GDP per Capita (2023 Snapshot)
-
-**Interactive Dashboard:**  
-[View on Tableau Public](https://public.tableau.com/views/WorldGDPperCapita2023Snapshot/WorldGDPperCapita2023Snapshot?:language=en-GB&publish=yes)
-
-**Preview:**  
-![World GDP per Capita 2023](World%20GDP%20per%20Capita%20—%202023%20Snapshot.png)
-
-**File:** `GDP_Dashboard_2023.twbx`
-
----
-
-## 👷 2. Global Workforce Overview (2023)
-
-**Interactive Dashboard:**  
-[View on Tableau Public](https://public.tableau.com/views/GlobalWorkforceOverview2023/GlobalWorkforceOverview2023?:language=en-GB&publish=yes)
-
-**Preview:**  
-![Global Workforce Overview 2023](Global%20Workforce%20Overview,%202023.png)
-
-**File:** `Global Workforce Overview, 2023.twbx`
-
----
-
-## 📊 3. Global Workforce Trends (2000–2023)
-
-**Interactive Dashboard:**  
-[View on Tableau Public](https://public.tableau.com/views/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023/GlobalWorkforceTrendsGDPLaborParticipationUnemployment20002023)
-
-**Preview:**  
-![Global Workforce Trends (2000–2023)](./global_workforce_trends.png)
-
-**File:**  
-`Global_Workforce_Trends_ GDP, Labor Participation & Unemployment (2000–2023).twbx`
+### Notes
+- This is the **primary deliverable** combining GDP per capita, labor force participation, unemployment trends, and employment by sector.  
+- Older dashboards (e.g., GDP 2023 Snapshot, Workforce Overview, Workforce Trends) were merged into this final version.  
+- Additional draft worksheet images are stored separately in the [`Worksheets/`](../Worksheets) folder.  
+- Cleaned datasets used to power this dashboard are available in [`data/processed/`](../data/processed).  
