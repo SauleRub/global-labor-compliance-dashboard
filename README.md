@@ -101,7 +101,7 @@ Dashboards are in /dashboards/ and published on Tableau Public:
   	
   	•	📈 Global Workforce Trends (2000–2023)
 
-⸻
+_______
 
 ⚠️ **Data Availability Note**  
 Some years (2008–2015) are missing from the dataset due to gaps in the original ILO/World Bank sources. Tableau filters display only available data, so the timeline reflects these reporting limitations.  
